@@ -2011,43 +2011,9 @@ input[type="radio"]+label:before {
 	border: 0;
 	border-radius: 0;
 	padding: 0;
+	
 }
 
-/* Icon */
-.icon {
-	text-decoration: none;
-	border-bottom: none;
-	position: relative;
-}
-
-.icon:before {
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	display: inline-block;
-	font-style: normal;
-	font-variant: normal;
-	text-rendering: auto;
-	line-height: 1;
-	text-transform: none !important;
-	font-family: 'Font Awesome 5 Free';
-	font-weight: 400;
-}
-
-.icon>.label {
-	display: none;
-}
-
-.icon:before {
-	line-height: inherit;
-}
-
-.icon.solid:before {
-	font-weight: 900;
-}
-
-.icon.brands:before {
-	font-family: 'Font Awesome 5 Brands';
-}
 
 /* Image */
 .image {
@@ -3044,6 +3010,7 @@ button:disabled,
 	text-transform: none !important;
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
+	
 }
 
 #search form:before {
@@ -3052,7 +3019,6 @@ button:disabled,
 	-ms-transform: scaleX(-1);
 	transform: scaleX(-1);
 	color: #7f888f;
-	content: '\f002';
 	cursor: default;
 	display: block;
 	font-size: 1.5em;
@@ -3068,6 +3034,7 @@ button:disabled,
 
 #search form input[type="text"] {
 	padding-right: 2.75em;
+	
 }
 
 #sidebar {
